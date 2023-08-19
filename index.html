@@ -4,10 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summer Sale</title>
+    <!-- tailwindcss and daisyui-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+        <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/d1ef4f5ad3.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            font-family: 'Lato', sans-serif;
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- header section -->
+    <header>
+        <div class="bg-[#F9F6E2] grid-cols-1 p-4 grid md:grid-cols-2 lg:grid-cols-2 lg:p-8">
+            <div class="flex justify-center items-center">
+               <div>
+                    <p class="text-2xl mb-4 text-[#111] font-medium text-center">---SALE FEVER---</p>
+                    <h1 class="text-3xl md:text-3xl lg:text-5xl font-bold">Purchase TK 200 or <br> above & get <span class="text-[#E527B2]">20% off</span></h1>
+                    <div class="flex gap-4 justify-center items-center mt-12 md:mt-5 lg:mt-12 ">
+                        <small class="font-semibold">Use Promo Code</small>
+                        <p class="bg-[#E527B2] py-2 px-4 rounded-md text-white font-medium">SELL200</p>
+                    </div>
+               </div>
+            </div>
+            <div>
+                <img class=" w-3/4 mx-auto mt-3 lg:w-3/4" src="images/Summer 1.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <div class="card w-96 bg-white m-6 shadow-xl">
+                <div class=" bg-[#1111110d] p-7 rounded-md w-5/6 mx-auto">
+                    <figure><img src="images/prod1.png" alt="Shoes" /></figure>
+                </div>
+                <div class="card-body">
+                    <div class="mx-auto text-[#ffc107]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3 class="text-center font-semibold">K. Accessories</h3>
+                    <p class="text-center text-[#11111180]">39.00 TK</p>
+                </div>
+              </div>
+        </div>
+    </main>
 </body>
 </html>
